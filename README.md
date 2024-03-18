@@ -36,7 +36,8 @@ The project aims to analyze sea level trends, storm data, and climate change ind
 ## Gathering the Data
 The data used for the project includes the following:  
 
-| Data Set | Description |   
+| Data Set | Description |
+| ----- | -----|   
 | [Beach Nourishment Master Database from the Program for the Study of Developed Shorelines](https://beachnourishment.wcu.edu/glossary) | Under the constant revision, the PSDS beach nourishment database contains attribute information on the general location of sand placement, primary funding source and funding type, the volume of sediment emplacement (in cubic yards), length of beach nourished (in feet) and cost. |   
 | [All Natural Disasters 1900-2021/EOSDIS](https://www.kaggle.com/datasets/brsdincer/all-natural-disasters-19002021-eosdis) | In this dataset, you will see the natural disasters of all countries. |   
 | [Climate Insights Dataset](https://www.kaggle.com/datasets/goyaladi/climate-insights-dataset) |  This dataset provides valuable insights into the ongoing changes in our climate. It encompasses a comprehensive collection of temperature records, CO2 emissions data, and sea level rise measurements |   
