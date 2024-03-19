@@ -1,36 +1,37 @@
-#Project Data Dictionary
-##Overview
-This file provides a data dictionary for the datasets used for the project.
+# Project Data Dictionary  
+## Overview  
+This file provides a data dictionary for the datasets used for the project.  
 
-###Beach Nourishment PSDS
-**State:** The state where the beach is located.
-  -Data Type: object
-**Location:** Specific location or name of the beach.
-  -Data Type: object
-**Year Completed:** When the nourishment was completed.
-  -Data Type: int64
-**Primary Funding Source:** Source of funding for the project.
- -Data Type: object
-**Justification:** Reason for the nourishment project.
-  -Data Type: object
-**Length (ft):** Length of the area nourished, in feet.
-  -Data Type: int64
-**Volume (CY):** Volume of sand/material used, in cubic yards.
-  -Data Type: int64
-**Total Cost:** Cost of the nourishment project.
-  -Data Type: int64
-**Year Completed CPI:** Consumer Price Index for the year completed.
-  -Data Type: float64
-**Adjusted Cost (2022):** Cost adjusted to 2022 dollars.
-  -Data Type: float64
-**Total Cost/CY:** Cost per cubic yard.
-  -Data Type: float64
-**Adjusted Cost/CY:** Cost per cubic yard, adjusted to 2022 dollars.
-  -Data Type: float64
-**CY/Foot:** Cubic yards used per foot of beach.
-  -Data Type: float64
-**Current CPI:** Most recent Consumer Price Index value.
-  -Data Type: float64
+### Beach Nourishment PSDS
+
+- **State:** The state where the beach is located.  
+  - Data Type: object  
+- **Location:** Specific location or name of the beach.  
+  - Data Type: object  
+- **Year Completed:** When the nourishment was completed.
+  - Data Type: int64
+- **Primary Funding Source:** Source of funding for the project.
+ - Data Type: object
+- **Justification:** Reason for the nourishment project.
+  - Data Type: object
+- **Length (ft):** Length of the area nourished, in feet.
+  - Data Type: int64
+- **Volume (CY):** Volume of sand/material used, in cubic yards.
+  - Data Type: int64
+- **Total Cost:** Cost of the nourishment project.
+  - Data Type: int64
+- **Year Completed CPI:** Consumer Price Index for the year completed.
+  - Data Type: float64
+- **Adjusted Cost (2022):** Cost adjusted to 2022 dollars.
+  - Data Type: float64
+- **Total Cost/CY:** Cost per cubic yard.
+  - Data Type: float64
+- **Adjusted Cost/CY:** Cost per cubic yard, adjusted to 2022 dollars.
+  - Data Type: float64
+- **CY/Foot:** Cubic yards used per foot of beach.
+  - Data Type: float64
+- **Current CPI:** Most recent Consumer Price Index value.
+  - Data Type: float64
 
 ### US Stations Linear Sea Level Trends
 **Station ID:** Unique identifier for the measurement station.
