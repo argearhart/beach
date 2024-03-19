@@ -81,5 +81,7 @@ This file provides a data dictionary for the datasets used for the project.
 - **Wind Speed:** Speed of the wind.
 - **Year:** Year of the observation extracted from the Date.
 
-### Disasters
+### Disasters/ US Storm info
 Detailed information about natural disasters including year, type, location, damages, and impacts.
+
+Year	Disaster Group	Disaster Subgroup	Disaster Type	Disaster Subtype	Disaster Subsubtype	Event Name	Country	ISO	Region	Continent	Location	Associated Dis	Associated Dis2	OFDA Response	Dis Mag Value	Dis Mag Scale	Latitude	Longitude	Local Time	River Basin	Start Year	Start Month	Start Day	End Year	End Month	End Day	Total Deaths	No Injured	No Affected	No Homeless	Total Affected	Insured Damages ('000 US$)	Total Damages ('000 US$)	CPI	State_Abbreviations
