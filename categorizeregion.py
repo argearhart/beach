@@ -4,6 +4,7 @@ state_map = {
     "Arizona": "AZ",
     "Arkansas": "AR",
     "California": "CA",
+    "Californie": "CA",
     "Colorado": "CO",
     "Connecticut": "CT",
     "Delaware": "DE",
@@ -71,9 +72,9 @@ def categorize_state(row):
     gulf_states = ['AL', 'FL', 'LA', 'MS', 'TX', 'Gulf Coast']
     east_coast_states = ['DC', 'ME', 'NH', 'MA', 'RI', 'CT', 'PA',
                          'NY', 'NJ', 'DE', 'MD', 'VA', 'NC', 'SC', 'GA', 'East Coast']
-    west_coast_states = ['WA', 'OR', 'CA', 'AK', 'HI' 'West Coast']
+    west_coast_states = ['WA', 'OR', 'CA', 'AK', 'West Coast']
     island = ['HI', 'Guam', 'PR', 'Virgin Islands', 'American Samoa',
-              'Marshall Islands', 'Bermuda', 'Pacific Ocean']
+              'Marshall', 'Bermuda', 'Pacific Ocean']
 
  # Normalize the state to its abbreviation
     states = [state_map.get(state.strip(), state.strip())
