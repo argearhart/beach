@@ -11,12 +11,24 @@ After watching a beach renourishment project take place, I began to wonder how e
 The project aims to analyze sea level trends, storm data, and beach renourishment projects.  The primary objective is to look at the effects of various environmental, geographical, climate factors that impact beach renourishment projects on US beaches in the Gulf of Mexico. 
 
 ## Features
-1. Read two data files (xlsx, csv)  
-2. Clean data and perform pandas merge with two data sets  
-3. Plotly, Matplotlib and seaborn visualizations  
-4. Tableau dashboard  
-5. Virtual environment and instructions in readme  
-6. Use markdown cells, clear code comments, README.me file  
+1. Loading data: Read two data files (xlsx, csv)  
+2. Clean and operate on the data while combining them.  
+ -- Clean data and perform pandas merge with two data sets, calculate some new values  
+ -- Get some information from sepearte documents and summarize in a DataFrame *For this project, the NLTK data is included in the repo.  After the capstone project review, I will change this.*  
+3. Visualize / Present 
+ -- Utilized Plotly, Matplotlib and Seaborn throughout to create visualizations.  *images are saved in the images folder*
+ -- Tableau [dashboard](https://public.tableau.com/views/BeachAnalysisProject/Dashboard1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link) *in progress*  
+
+ -- Pivot table - matplotlib/seaborn plot  
+
+4. Best practices
+ -- Utilized virtual environment and instructions in readme  
+ -- Custom data dictionary 
+ -- Other best practices ?
+ 
+5. Interpretation of data
+-- Code annotated with markdown cells, code comments, README.me file
+-- Annotated .py files  
 
 ## Technical Insight:
 - **Programming Environment:** Utilization of Jupyter Notebooks within Visual Studio Code for code development and documentation.
@@ -102,4 +114,7 @@ If you are using Visual Studio Code, open the .ipynb file and run the cells usin
 To deactivate the virtual environment when you are done, simply type deactivate in your terminal.
 
 ---
+### Project Notebooks
+Run the project notebooks from 01 to 05.  The notebook 05main utilizes files created in 01 through 04.
 
+Notebook 06 sea levels looks at global mean sea levels.  In the future, we may look at more global data.  
