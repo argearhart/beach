@@ -8,27 +8,27 @@ After watching a beach renourishment project take place, I began to wonder how e
 
 ## Project Overview
 
-The project aims to analyze sea level trends, storm data, and beach renourishment projects.  The primary objective is to look at the effects of various environmental, geographical, climate factors that impact beach renourishment projects on US beaches in the Gulf of Mexico. 
+The project aims to analyze sea level trends, storm data, and beach renourishment projects.  The primary objective is to identify factors that impact beach renourishment projects on US beaches in the Gulf of Mexico. 
 
 ## Features
 1. Loading data: Read two data files (xlsx, csv)  
-2. Clean and operate on the data while combining them.  
- -- Clean data and perform pandas merge with two data sets, calculate some new values  
- -- Get some information from sepearte documents and summarize in a DataFrame *For this project, the NLTK data is included in the repo.  After the capstone project review, I will change this.*  
-3. Visualize / Present 
- -- Utilized Plotly, Matplotlib and Seaborn throughout to create visualizations.  *images are saved in the images folder*
- -- Tableau [dashboard](https://public.tableau.com/views/BeachAnalysisProject/Dashboard1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link) *in progress*  
+2. Clean and operate on the data while combining them.    
+  * Clean data and perform pandas merge with two data sets, calculate some new values  
+  * Get some information from sepearte documents and summarize in a DataFrame  *For this project, the NLTK data is included in the repo.  After the capstone project review, I will change this.*      
+3. Visualize / Present   
+  * Utilized Plotly, Matplotlib and Seaborn throughout to create visualizations.  *images are saved in the images folder*  
+  * Tableau [dashboard](https://public.tableau.com/views/BeachAnalysisProject/Dashboard1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link)   *in progress*    
 
- -- Pivot table - matplotlib/seaborn plot  
+  * Pivot table - matplotlib/seaborn plot  
 
 4. Best practices
- -- Utilized virtual environment and instructions in readme  
- -- Custom data dictionary 
- -- Other best practices ?
+  * Utilized virtual environment and instructions in readme  
+  * Custom data dictionary 
+  * *Other best practices*
  
 5. Interpretation of data
--- Code annotated with markdown cells, code comments, README.me file
--- Annotated .py files  
+  * Code annotated with markdown cells, code comments, README.me file
+  * Annotated .py files  
 
 ## Technical Insight:
 - **Programming Environment:** Utilization of Jupyter Notebooks within Visual Studio Code for code development and documentation.
@@ -54,67 +54,67 @@ The data used for the project includes the following:
 | [All Natural Disasters 1900-2021/EOSDIS](https://www.kaggle.com/datasets/brsdincer/all-natural-disasters-19002021-eosdis) | In this dataset, you will see the natural disasters of all countries. |   
 | [Climate Insights Dataset](https://www.kaggle.com/datasets/goyaladi/climate-insights-dataset) |  This dataset provides valuable insights into the ongoing changes in our climate. It encompasses a comprehensive collection of temperature records, CO2 emissions data, and sea level rise measurements |   
 | [Global Average Absolute Sea Level Change](https://www.kaggle.com/datasets/somesh24/sea-level-change) | Cumulative changes in sea level for the world’s oceans since 1880, based on a combination of long-term tide gauge measurements and recent satellite measurements. | 
-| [U.S. Linear Relative Sea Level (RSL) trends and 95% Confidence Intervals (CI) in mm/year and in ft/century](https://tidesandcurrents.noaa.gov/sltrends/mslUSTrendsTable.html) | The rate of mean sea level rise or fall has been determined for 117 long-term water level stations. |  
+| [U.S. Linear Relative Sea Level (RSL) trends and 95% Confidence Intervals (CI) in mm/year and in ft/century](https://tidesandcurrents.noaa.gov/sltrends/mslUSTrendsTable.html) | The rate of mean sea level rise or fall has been determined for 117 long-term water level stations. |   
 
 
-Access Requirements: No special access requirements.
+Access Requirements: No special access requirements.  
 
 
 *** 
 
-### Installation
-#### How to Run the Project 
-**Before you begin, ensure you have met the following requirements:**  
-You have installed Python. This project was developed using Python 3.12.0. If you don't have Python installed or if you need to upgrade your current version, you can download it from the [official Python website](https://www.python.org/downloads/).
+### Installation  
+#### How to Run the Project   
+**Before you begin, ensure you have met the following requirements:**    
+You have installed Python. This project was developed using Python 3.12.0. If you don't have Python installed or if you need to upgrade your current version, you can download it from the [official Python website](https://www.python.org/downloads/).  
 
-You have installed Git, which is necessary to clone the repository. If you don't have Git installed, you can download it from the [official Git website](https://git-scm.com/downloads).
+You have installed Git, which is necessary to clone the repository. If you don't have Git installed, you can download it from the [Git](https://git-scm.com/downloads).  
 
-**Follow these steps to run the project on your local machine:**
-#### Clone the repository
-1. Fork the repository [repo link]( https://github.com/argearhart/beach/)
-2. Clone the repository to your Github account
-3. Access the repository from your command line or preferred CMD software
-4. Install a virtual environment. 
+**Follow these steps to run the project on your local machine:**  
+#### Clone the repository  
+1. Fork the [repository]( https://github.com/argearhart/beach/)  
+2. Clone the repository to your Github account  
+3. Access the repository from your command line or preferred CMD software  
+4. Install a virtual environment.   
 
-*It's recommended to create a virtual environment to keep the project's dependencies isolated from your system's Python environment. You can create a virtual environment using the following command:*
+*It's recommended to create a virtual environment to keep the project's dependencies isolated from your system's Python environment. You can create a virtual environment using the following command:*  
 
-On Windows:  python -m venv venv
-On macOS and Linux: python3 -m venv venv
-This will create a new virtual environment named venv in your current directory.
+On Windows:  python -m venv venv  
+On macOS and Linux: python3 -m venv venv  
+This will create a new virtual environment named venv in your current directory.  
 
-#### Activate the virtual environment using the following command: 
+#### Activate the virtual environment using the following command:   
 
-On Windows:  
+On Windows:   
 
 ```python
 .\venv\Scripts\activate
 ```
 
-On macOS and Linux: 
+On macOS and Linux:   
 
 ```python
 source venv/bin/activate
 ```
+  
+*Your prompt should change to indicate that you are now operating within a Python virtual environment.*  
 
-*Your prompt should change to indicate that you are now operating within a Python virtual environment.*
-
-#### Install the required packages by running the following command:
+#### Install the required packages by running the following command:  
 
 ```python
 pip install -r requirements.txt
 ```
-
-You are now ready to run the project!
+  
+You are now ready to run the project!   
 
 #### Run the .ipynb file:
-If you have Jupyter Notebook installed, enter jupyter notebook and open the .ipynb file.
+If you have Jupyter Notebook installed, enter jupyter notebook and open the .ipynb file.  
 
-If you are using Visual Studio Code, open the .ipynb file and run the cells using the run button that appears at the top left of each cell.
+If you are using Visual Studio Code, open the .ipynb file and run the cells using the run button that appears at the top left of each cell.  
 
-To deactivate the virtual environment when you are done, simply type deactivate in your terminal.
+To deactivate the virtual environment when you are done, simply type deactivate in your terminal.  
 
 ---
 ### Project Notebooks
-Run the project notebooks from 01 to 05.  The notebook 05main utilizes files created in 01 through 04.
+Run the project notebooks from 01 to 05.  The notebook 05main utilizes files created in 01 through 04.  
 
-Notebook 06 sea levels looks at global mean sea levels.  In the future, we may look at more global data.  
+Notebook 06 sea levels looks at global mean sea levels.  In the future, we may look at more global data.    
