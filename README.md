@@ -52,10 +52,10 @@ The data used for the project includes the following:
 | ----- | -----|   
 | [Beach Nourishment Master Database from the Program for the Study of Developed Shorelines](https://beachnourishment.wcu.edu/glossary) | Under the constant revision, the PSDS beach nourishment database contains attribute information on the general location of sand placement, primary funding source and funding type, the volume of sediment emplacement (in cubic yards), length of beach nourished (in feet) and cost. |   
 | [All Natural Disasters 1900-2021/EOSDIS](https://www.kaggle.com/datasets/brsdincer/all-natural-disasters-19002021-eosdis) | In this dataset, you will see the natural disasters of all countries. |   
+| [U.S. Linear Relative Sea Level (RSL) trends and 95% Confidence Intervals (CI) in mm/year and in ft/century](https://tidesandcurrents.noaa.gov/sltrends/mslUSTrendsTable.html) | The rate of mean sea level rise or fall has been determined for 117 long-term water level stations. |
+|*Not currently included in this project analysis* |   
 | [Climate Insights Dataset](https://www.kaggle.com/datasets/goyaladi/climate-insights-dataset) |  This dataset provides valuable insights into the ongoing changes in our climate. It encompasses a comprehensive collection of temperature records, CO2 emissions data, and sea level rise measurements |   
 | [Global Average Absolute Sea Level Change](https://www.kaggle.com/datasets/somesh24/sea-level-change) | Cumulative changes in sea level for the world’s oceans since 1880, based on a combination of long-term tide gauge measurements and recent satellite measurements. | 
-| [U.S. Linear Relative Sea Level (RSL) trends and 95% Confidence Intervals (CI) in mm/year and in ft/century](https://tidesandcurrents.noaa.gov/sltrends/mslUSTrendsTable.html) | The rate of mean sea level rise or fall has been determined for 117 long-term water level stations. |   
-
 
 Access Requirements: No special access requirements.  
 
