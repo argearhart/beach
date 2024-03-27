@@ -15,17 +15,12 @@ The project aims to analyze sea level trends, storm data, and beach renourishmen
 1. Loading data: Read two data files (xlsx, csv)  
 2. Clean and operate on the data while combining them.    
   * Clean data and perform pandas merge with two data sets, calculate some new values  
-    
 3. Visualize / Present   
   * Utilized Plotly, Matplotlib and Seaborn throughout to create visualizations.  *images are saved in the images folder*  
   * Tableau [dashboard](https://public.tableau.com/views/BeachAnalysisProject/Dashboard1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link)   *in progress*    
-  * Pivot table - matplotlib/seaborn plot  
-
 4. Best practices
   * Utilized virtual environment and instructions in readme  
   * Custom data dictionary 
-  * *Other best practices*
- 
 5. Interpretation of data
   * Code annotated with markdown cells, code comments, README.me file
   * Annotated .py files  
@@ -36,6 +31,7 @@ The project aims to analyze sea level trends, storm data, and beach renourishmen
     - Pandas for data manipulation and analysis.
     - NumPy for numerical data processing.
     - Matplotlib and Seaborn for data visualization.
+    - Ploytly for data visualization
 - **Data Cleaning:** Standardize column names, data types (date/time), identify outliers, and other info.
 - **Data Integration:** Merge/concatenate multiple data sources.
 - **Summary/Statistics:** Calculate descriptive statistics to understand the relationship of data by locations, dates, natural disasters, etc. 
