@@ -6,6 +6,7 @@ After watching a beach renourishment project take place, I began to wonder how e
 
  *** 
 ## **_Currently, this project will only work on Windows_**
+
 ## Project Overview
 
 The project aims to analyze sea level trends, storm data, and beach renourishment projects.  The primary objective is to identify factors that impact beach renourishment projects on US beaches in the Gulf of Mexico. 
@@ -14,11 +15,10 @@ The project aims to analyze sea level trends, storm data, and beach renourishmen
 1. Loading data: Read two data files (xlsx, csv)  
 2. Clean and operate on the data while combining them.    
   * Clean data and perform pandas merge with two data sets, calculate some new values  
-  * Get some information from sepearte documents and summarize in a DataFrame  *For this project, the NLTK data is included in the repo.  After the capstone project review, I will change this.*      
+    
 3. Visualize / Present   
   * Utilized Plotly, Matplotlib and Seaborn throughout to create visualizations.  *images are saved in the images folder*  
   * Tableau [dashboard](https://public.tableau.com/views/BeachAnalysisProject/Dashboard1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link)   *in progress*    
-
   * Pivot table - matplotlib/seaborn plot  
 
 4. Best practices
